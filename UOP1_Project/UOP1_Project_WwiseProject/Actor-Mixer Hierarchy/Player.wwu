@@ -704,7 +704,7 @@
 										<RTPC Name="" ID="{0418BCB1-0C2F-4960-9245-BD27BDE52E6D}" ShortID="510278092">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Heartbeat" ID="{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
+													<ObjectRef Name="Health" ID="{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{EF98E148-701A-4F15-A4BE-DCAB5BAA0A1B}">
@@ -744,7 +744,7 @@
 										<RTPC Name="" ID="{5442DFF0-C261-4F7E-AD00-E14456102D1A}" ShortID="995190771">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Heartbeat" ID="{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
+													<ObjectRef Name="Health" ID="{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}" WorkUnitID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{CD7383CA-EE0C-4F69-9339-715C8289E8F3}">
@@ -754,19 +754,19 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-0</YPos>
+														<YPos>2.779</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Constant</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>9.43509</XPos>
-														<YPos>0.41676</YPos>
+														<XPos>8.41346</XPos>
+														<YPos>2.77886</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>InvertedSCurve</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>31.91105</XPos>
-														<YPos>-200</YPos>
+														<XPos>35.27643</XPos>
+														<YPos>-12.3548</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>

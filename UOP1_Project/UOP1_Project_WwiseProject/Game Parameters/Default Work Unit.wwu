@@ -3,7 +3,7 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{47F8D5DB-6F74-4B0C-859D-698A15E4A228}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Heartbeat" ID="{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}">
+				<GameParameter Name="Health" ID="{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}">
 					<PropertyList>
 						<Property Name="Max" Type="Real64" Value="50"/>
 					</PropertyList>

@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
     "Language": "SFX",
-    "Hash": "2340790775",
+    "Hash": "3664525624",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -1357,16 +1357,16 @@
       "GUID": "{FE79C3AE-3098-4A2A-A981-AB553DE50DF1}"
      },
      {
-      "Id": "2179486487",
-      "Name": "Heartbeat",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Heartbeat",
-      "GUID": "{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}"
-     },
-     {
       "Id": "2918011349",
       "Name": "MasterVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MasterVolume",
       "GUID": "{7A83E21B-6ED5-46DF-A316-4324E9E1B9BD}"
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Health",
+      "GUID": "{62FD8977-D9E8-40B1-95A9-57BF8B47F8DA}"
      }
     ],
     "StateGroups": [

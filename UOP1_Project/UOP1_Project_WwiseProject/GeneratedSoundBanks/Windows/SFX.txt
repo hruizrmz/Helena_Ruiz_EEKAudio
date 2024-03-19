@@ -86,8 +86,8 @@ Custom State	ID	Name	State Group	Owner		Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	988953028	SFXVolume			\Default Work Unit\Mix\SFXVolume	
-	2179486487	Heartbeat			\Default Work Unit\Heartbeat	
 	2918011349	MasterVolume			\Default Work Unit\Mix\MasterVolume	
+	3677180323	Health			\Default Work Unit\Health	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
