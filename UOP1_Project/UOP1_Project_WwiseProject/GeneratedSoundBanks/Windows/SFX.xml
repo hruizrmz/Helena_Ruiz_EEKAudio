@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="3103622991">
+		<SoundBank Id="393239870" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="2340790775">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -183,7 +183,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1717767246" Name="NPC_Hare_Song_Long" ObjectPath="\Events\Default Work Unit\NPC\NPC_Hare_Song_Long" GUID="{F0D6D01F-A92E-48BC-9933-7CCCA701E5B1}" MaxAttenuation="40." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+				<Event Id="1717767246" Name="NPC_Hare_Song_Long" ObjectPath="\Events\Default Work Unit\NPC\NPC_Hare_Song_Long" GUID="{F0D6D01F-A92E-48BC-9933-7CCCA701E5B1}" MaxAttenuation="40." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="644177573" Language="SFX">
 							<ShortName>NPC_Hare_Song_Long.wav</ShortName>

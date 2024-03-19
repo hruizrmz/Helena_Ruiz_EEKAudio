@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
     "Language": "SFX",
-    "Hash": "3103622991",
+    "Hash": "2340790775",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -400,9 +400,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\NPC\\NPC_Hare_Song_Long",
       "GUID": "{F0D6D01F-A92E-48BC-9933-7CCCA701E5B1}",
       "MaxAttenuation": "40.",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0.",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "644177573",

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
     GuidInternal: 
-    m_lastTime: -8584907535317447681
+    m_lastTime: -8584907519104355381
     List:
     - name: Ambience
       guid: 6a69b0ff8b6f2347a6a9e10e42d179b0
@@ -220,7 +220,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: cd4a6721a693ed4382e34f20bf0d65e6
     GuidInternal: 
-    m_lastTime: -8584931560369619880
+    m_lastTime: -8584907479846787026
     List:
     - name: Music
       guid: 18618433eb301f49ba516b900b7b3237
@@ -265,7 +265,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience
     guid: d2ced58090a83945ae65d1fa261578a0
     GuidInternal: 
-    m_lastTime: -8584907563085250800
+    m_lastTime: -8584907488330321848
     List:
     - name: 2D
       guid: 5a82e7bd1c912d48905b6be8885cfcbb
@@ -491,6 +491,29 @@ MonoBehaviour:
       maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
+    - name: Amb_Town
+      guid: 590da417c28b9547a382ff859ec886f4
+      id: 3416472370
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d50cb0bda87914f8a3aa7fefa9d0a8d
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: 2D
+        ObjectType: 4
+        guid: 5a82e7bd1c912d48905b6be8885cfcbb
+      - ElementName: Amb_Town
+        ObjectType: 3
+        guid: 590da417c28b9547a382ff859ec886f4
+      Path: Events\Default Work Unit\Ambience\2D\Amb_Town
+      maxAttenuation: 0
+      maxDuration: 326.4
+      minDuration: 326.4
     - name: Amb_Trees
       guid: 4347c7967ef89a47a0aac86f521ffb18
       id: 2644861617
@@ -775,7 +798,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d9d4aa186fc5a9469f14ff033dfb9902
       Path: Events\Default Work Unit\Creature\Critter_Rock_Attack
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 0.698073
       minDuration: 0.698073
     - name: Critter_Rock_Death
@@ -795,7 +818,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1cffe9455aacde4d92ed117219fdfa0a
       Path: Events\Default Work Unit\Creature\Critter_Rock_Death
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 0.881361
       minDuration: 0.881361
     - name: Critter_Rock_GettingHit
@@ -815,7 +838,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 04b4f67c18109843826452f4e3193da4
       Path: Events\Default Work Unit\Creature\Critter_Rock_GettingHit
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 0.768163
       minDuration: 0.768163
     - name: Critter_Rock_Idle
@@ -835,7 +858,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: de23fe3bc75c4e40a5ffc14f84591179
       Path: Events\Default Work Unit\Creature\Critter_Rock_Idle
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 0.625306
       minDuration: 0.625306
     - name: Critter_Rock_Move
@@ -855,7 +878,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 792c75cb2e46544c91f5407bc0295c15
       Path: Events\Default Work Unit\Creature\Critter_Rock_Move
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 0.539048
       minDuration: 0.539048
   - PhysicalPath: Events\Default Work Unit.wwu
@@ -949,7 +972,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: ca6ee8064c9363478d5a0f970d64e573
     GuidInternal: 
-    m_lastTime: -8584907572313434890
+    m_lastTime: -8584907488221116916
     List:
     - name: NPC_Hare_Song_Long
       guid: 1fd0d6f02ea9bc4899337ccca701e5b1
@@ -969,8 +992,8 @@ MonoBehaviour:
         guid: 1fd0d6f02ea9bc4899337ccca701e5b1
       Path: Events\Default Work Unit\NPC\NPC_Hare_Song_Long
       maxAttenuation: 40
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: NPC_Hare_Talk
       guid: 6d52346910fc4f4d87e05a2765a43ec6
       id: 1419286180
@@ -988,7 +1011,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6d52346910fc4f4d87e05a2765a43ec6
       Path: Events\Default Work Unit\NPC\NPC_Hare_Talk
-      maxAttenuation: 40
+      maxAttenuation: 25
       maxDuration: 1.210204
       minDuration: 1.17
     - name: NPC_Phoenix_Flap
@@ -1346,7 +1369,7 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Player\Player_Water_Splash
       maxAttenuation: 0
       maxDuration: 0.378685
-      minDuration: 0.378685
+      minDuration: 0.208413
   - PhysicalPath: Events\UI.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1693,7 +1716,7 @@ MonoBehaviour:
     ParentPath: States\Music
     guid: de4658d6312446499099365c761abc67
     GuidInternal: 
-    m_lastTime: -8584942034025957945
+    m_lastTime: -8584907488330432112
     List:
     - name: Music
       guid: ecb57b5c0a57514d9486ce2b6ff7dec1
@@ -1774,6 +1797,22 @@ MonoBehaviour:
         - ElementName: Mus_MainMenu
           ObjectType: 8
           guid: dba8f20a37d4984ca09c0ebee1fedc62
+      - name: Mus_Town
+        guid: bef7277237dda442bf6f9df6e731d17b
+        id: 178217317
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Music
+          ObjectType: 9
+          guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+        - ElementName: Mus_Town
+          ObjectType: 8
+          guid: bef7277237dda442bf6f9df6e731d17b
       - name: None
         guid: 0405cbe97b2c6042a5b9a2bee640fbe0
         id: 748895195
@@ -1970,7 +2009,7 @@ MonoBehaviour:
     m_lastTime: -8584942034025084723
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 040000000500000008000000090000000a0000000b000000100000001200000015000000160000001800000022000000240000002500000034000000
+  ExpandedWaapiItemIds: 04000000050000000600000007000000090000000a0000000b0000000d00000010000000120000001500000016000000180000001900000022000000240000002500000034000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

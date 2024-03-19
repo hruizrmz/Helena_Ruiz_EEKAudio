@@ -9,10 +9,10 @@
 			<ChildrenList>
 				<Event Name="NPC_Hare_Song_Long" ID="{F0D6D01F-A92E-48BC-9933-7CCCA701E5B1}">
 					<ChildrenList>
-						<Action Name="" ID="{7F9146EA-5494-43E3-A0BD-697638E75E5E}" ShortID="83081542">
+						<Action Name="" ID="{9D9BD998-1EA7-43EA-89BC-0E79DE7ECE78}" ShortID="180155552">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Singing" ID="{D6B5DCE6-A18E-4D9E-8B7A-75753E040B3F}" WorkUnitID="{D75641DB-7775-4E74-AFB3-62E871A9220C}"/>
+									<ObjectRef Name="Song" ID="{21F942BC-6E39-4F4C-8D32-87AB0D52477C}" WorkUnitID="{D75641DB-7775-4E74-AFB3-62E871A9220C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
