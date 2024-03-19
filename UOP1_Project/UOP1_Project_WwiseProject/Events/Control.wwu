@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" SchemaVersion="103" RootDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" ParentDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}">
 	<Events>
-		<WorkUnit Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" PersistMode="Standalone">
+		<WorkUnit Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" OwnerID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" PersistMode="Nested">
 			<ChildrenList>
 				<Event Name="Scene_Change" ID="{07C77A48-4161-4733-9374-1E25B5B1642D}">
 					<ChildrenList>

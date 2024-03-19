@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9A8D40F-F984-4655-BC94-798A4042F850}" SchemaVersion="103" RootDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" ParentDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}">
+	<Events>
+		<WorkUnit Name="Creature" ID="{A9A8D40F-F984-4655-BC94-798A4042F850}" OwnerID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Critter_Plant_Idle" ID="{C53149FC-7A81-43BD-AF73-B61A89D56E67}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{298C162F-F2DC-497F-8D98-21C10E8F238B}" ShortID="70912306">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_Idle" ID="{C41FB4BA-8470-4C02-AEB5-1C0A87E8790E}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Attack" ID="{65694B2E-1A1A-4749-B129-5726272F7042}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D0D2DF38-47DC-4F95-A940-002A6066F29A}" ShortID="895471725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_Attack" ID="{30D8B228-91B6-4321-AB19-4BC6C85F07AE}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_GettingHit" ID="{29E692D5-520D-4303-B498-61FAA56A8CA9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{74684823-EE68-4FAD-A40F-30BDB61D4FA7}" ShortID="98079007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_GetHit" ID="{3C1C21B6-2E3D-4296-9AAC-D904EEC8A8CD}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Death" ID="{23AB1CB9-CCA5-457F-B269-C4F59A400FEC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{544E042E-D13C-4175-8F28-0B13A912D39F}" ShortID="544721848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Plant_Death" ID="{A760FEC3-520E-4A0A-B6E4-E2A3B9C976AA}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Rock_Idle" ID="{3BFE23DE-5CC7-404E-A5FF-C14F84591179}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{FCADD5F2-B60F-400A-B4D6-2F8FA05FBF23}" ShortID="671116016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Rock_Idle" ID="{4ECBE06A-F06B-4AE5-9E20-10777D5BAC8D}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Rock_Attack" ID="{18AAD4D9-C56F-46A9-9F14-FF033DFB9902}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{09E4FC83-B49F-4A8A-A153-E915AB3C8BFF}" ShortID="164298493">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Rock_Attack" ID="{477000CB-687D-434C-948D-DCB4A3B1DC83}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Rock_Death" ID="{45E9FF1C-AC5A-4DDE-92ED-117219FDFA0A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B3BC62F1-36C6-4FBE-9D94-E839446A3283}" ShortID="404168393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Rock_Death" ID="{DBA9B253-CC45-44EF-9499-C2F42DF27D2D}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Rock_GettingHit" ID="{7CF6B404-1018-4398-8264-52F4E3193DA4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A1AA3DAC-A9C3-472B-BB06-17E305BAA230}" ShortID="47723670">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Rock_GettingHit" ID="{AEDEB07B-3729-4578-B080-D881D1515797}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Rock_Move" ID="{CB752C79-462E-4C54-91F5-407BC0295C15}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{FAF4FFCC-4AFC-4BD6-BBB9-9AC5D2B2BFDA}" ShortID="424752516">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critter_Rock_Move" ID="{BF3A8488-DE04-44DD-9D24-E5D032E44C0D}" WorkUnitID="{E0870153-AC74-4F10-B2EB-1F264335DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

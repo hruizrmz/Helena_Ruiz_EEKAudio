@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{81A556FD-3706-45FC-B81F-7EE171EEFA29}" SchemaVersion="103" RootDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" ParentDocumentID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}">
+	<Events>
+		<WorkUnit Name="UI" ID="{81A556FD-3706-45FC-B81F-7EE171EEFA29}" OwnerID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Click" ID="{6CB2DB47-63DA-41C6-B119-4DCA775F83DB}">
+					<ChildrenList>
+						<Action Name="" ID="{64330761-723B-4BB7-B2E3-391D00845530}" ShortID="640389217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{E06AEC11-2901-4D0B-854A-D641B8563662}" WorkUnitID="{BB906017-813D-42D1-9568-D31C677A7675}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Shuffle" ID="{86843EE5-50FE-4450-B5BD-CC7F9C07E9A1}">
+					<ChildrenList>
+						<Action Name="" ID="{93684B72-FEE2-4EE5-9860-93CFD4E87E5E}" ShortID="371452754">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Shuffle" ID="{8F2EA9DE-6062-4102-8A9C-230D0CD0EFD4}" WorkUnitID="{BB906017-813D-42D1-9568-D31C677A7675}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Use" ID="{1E5DB15B-82C4-4E94-AEE1-DD182AA6FB27}">
+					<ChildrenList>
+						<Action Name="" ID="{89824B52-00E9-447F-B849-9DB3B3789DA6}" ShortID="18031017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Use" ID="{697C275F-490B-4098-8F19-2CDE15D60868}" WorkUnitID="{BB906017-813D-42D1-9568-D31C677A7675}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AddToInventory" ID="{06D95C70-DBD3-4CDC-ADED-E6F0BF40D0D4}">
+					<ChildrenList>
+						<Action Name="" ID="{2149F368-6D24-4A72-8594-8CA2955334B4}" ShortID="561324038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AddToInventory" ID="{A5C209A4-889F-47F9-AD6B-EAEDA2A4FFE1}" WorkUnitID="{BB906017-813D-42D1-9568-D31C677A7675}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

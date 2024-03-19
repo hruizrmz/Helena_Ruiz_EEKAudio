@@ -1,5 +1,158 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
-	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
-	3170972326	Scene_Change			\Control\Scene_Change	
+	65587878	Critter_Rock_GettingHit			\Default Work Unit\Creature\Critter_Rock_GettingHit	
+	546421005	Critter_Rock_Death			\Default Work Unit\Creature\Critter_Rock_Death	
+	592624029	UI_Shuffle			\Default Work Unit\UI\UI_Shuffle	
+	660562971	Townsfolk_Male_Talk			\Default Work Unit\NPC\Townsfolk_Male_Talk	
+	728646680	Amb_Field_Farms			\Default Work Unit\Ambience\2D\Amb_Field_Farms	
+	816303795	Player_Grab			\Default Work Unit\Player\Player_Grab	
+	859052727	Amb_Beach			\Default Work Unit\Ambience\2D\Amb_Beach	
+	1299172729	Townsfolk_Female_Footsteps			\Default Work Unit\NPC\Townsfolk_Female_Footsteps	
+	1363577934	Player_Jump_LiftOff			\Default Work Unit\Player\Player_Jump_LiftOff	
+	1419286180	NPC_Hare_Talk			\Default Work Unit\NPC\NPC_Hare_Talk	
+	1542330065	Player_Die			\Default Work Unit\Player\Player_Die	
+	1717767246	NPC_Hare_Song_Long			\Default Work Unit\NPC\NPC_Hare_Song_Long	
+	1730208058	Player_Footsteps			\Default Work Unit\Player\Player_Footsteps	
+	1822764980	Critter_Plant_GettingHit			\Default Work Unit\Creature\Critter_Plant_GettingHit	
+	1824690809	Amb_BoilingWater			\Default Work Unit\Ambience\3D\Amb_BoilingWater	
+	1870809083	NPC_Phoenix_Nibble			\Default Work Unit\NPC\NPC_Phoenix_Nibble	
+	1879932703	CaveReverb_Disable			\Default Work Unit\Ambience\States\CaveReverb_Disable	
+	1901333966	Critter_Rock_Move			\Default Work Unit\Creature\Critter_Rock_Move	
+	1940944140	CaveReverb_Enable			\Default Work Unit\Ambience\States\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\Default Work Unit\Creature\Critter_Plant_Attack	
+	1997053204	Amb_Field_Hill			\Default Work Unit\Ambience\2D\Amb_Field_Hill	
+	2060690880	Player_Water_Splash			\Default Work Unit\Player\Player_Water_Splash	
+	2249769530	UI_Click			\Default Work Unit\UI\UI_Click	
+	2294733406	Underwater_On			\Default Work Unit\Ambience\States\Underwater_On	
+	2565812264	Amb_Torch			\Default Work Unit\Ambience\3D\Amb_Torch	
+	2644861617	Amb_Trees			\Default Work Unit\Ambience\3D\Amb_Trees	
+	2675089675	Player_Talk			\Default Work Unit\Player\Player_Talk	
+	2770205059	Critter_Rock_Idle			\Default Work Unit\Creature\Critter_Rock_Idle	
+	2802431236	Underwater_Off			\Default Work Unit\Ambience\States\Underwater_Off	
+	2824512041	Player_Attack			\Default Work Unit\Player\Player_Attack	
+	2891098061	Critter_Plant_Idle			\Default Work Unit\Creature\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\Default Work Unit\Creature\Critter_Plant_Death	
+	2967641625	Critter_Rock_Attack			\Default Work Unit\Creature\Critter_Rock_Attack	
+	2971175702	Townsfolk_Female_Talk			\Default Work Unit\NPC\Townsfolk_Female_Talk	
+	3008108842	Townsfolk_Male_Footsteps			\Default Work Unit\NPC\Townsfolk_Male_Footsteps	
+	3034451483	NPC_Phoenix_Sneeze			\Default Work Unit\NPC\NPC_Phoenix_Sneeze	
+	3072576347	AddToInventory			\Default Work Unit\UI\AddToInventory	
+	3170972326	Scene_Change			\Default Work Unit\Control\Scene_Change	
+	3207324726	Amb_Fire			\Default Work Unit\Ambience\3D\Amb_Fire	
+	3210856931	UI_Use			\Default Work Unit\UI\UI_Use	
+	3484321931	Player_Heartbeat			\Default Work Unit\Player\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Default Work Unit\Ambience\3D\Amb_Ocean	
+	3755979049	Amb_Cave			\Default Work Unit\Ambience\3D\Amb_Cave	
+	3856109001	Player_Jump_Landing			\Default Work Unit\Player\Player_Jump_Landing	
+	3945457670	Player_GetHit			\Default Work Unit\Player\Player_GetHit	
+	4270597360	NPC_Phoenix_Flap			\Default Work Unit\NPC\NPC_Phoenix_Flap	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3238228922	Surface_Rock	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1697398818	CaveReverb			\Default Work Unit\CaveReverb	
+	2213237662	Underwater			\Default Work Unit\Underwater	
+	3092587493	Pause			\Music\Pause	
+
+State	ID	Name	State Group			Notes
+	717767040	CaveReverb_Enabled	CaveReverb			
+	748895195	None	CaveReverb			
+	2218728873	CaveReverb_Disabled	CaveReverb			
+	748895195	None	Underwater			
+	2294733406	Underwater_On	Underwater			
+	2802431236	Underwater_Off	Underwater			
+	748895195	None	Pause			
+	3537680115	Pause_On	Pause			
+	3967028551	Pause_Off	Pause			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	173917773	Underwater_On	Underwater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	712694220	CaveReverb_Enabled	CaveReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb		
+	874641376	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\Mix\SFXVolume	
+	2179486487	Heartbeat			\Default Work Unit\Heartbeat	
+	2918011349	MasterVolume			\Default Work Unit\Mix\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	662417162	NPC			\Default Work Unit\Master Audio Bus\SFX\NPC	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	2661483290	Creature			\Default Work Unit\Master Audio Bus\SFX\Creature	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1697398818	CaveReverb			\Default Work Unit\Master Audio Bus\SFX\CaveReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26300043	Townsfolk_Male_Talk	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Townsfolk_Male_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Townsfolk_Male\Townsfolk_Male_Talk		176932
+	48404539	Player_Footsteps_Grass_2	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Grass_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Grass\Player_Footsteps_Grass_2		95620
+	95233476	Player_Footsteps_Sand_1	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Sand_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Sand\Player_Footsteps_Sand_1		70928
+	111849561	Player_Jump_LiftOff_Huh	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Jump_LiftOff_Huh_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Jump LiftOff\Player_Jump_LiftOff_Huh		56724
+	115455023	UI_Shuffle	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\UI_Shuffle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\UI_Shuffle		108196
+	141598601	Player_Footsteps_Water_1	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Water_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Water\Player_Footsteps_Water_1		36828
+	142934379	Critter_Rock_GettingHit	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Rock_GettingHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Rock\Critter_Rock_GettingHit		135568
+	169146952	Player_Die	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Die_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Player_Die		67836
+	195834420	UI_Use	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\UI_Use_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\UI_Use		87600
+	204185516	Player_GetHit	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_GetHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Player_GetHit		67836
+	207105014	Beach	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Beach_3D1D1BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D\Beach		250169
+	207786473	NPC_Phoenix_Sneeze	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\NPC_Phoenix_Sneeze_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Phoenix\NPC_Phoenix_Sneeze		94376
+	228890835	Amb_Torch	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D\Amb_Torch		1551864
+	256203886	Amb_Fire	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Fire_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D\Amb_Fire		1338860
+	280402708	Player_Attack	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Attack\Player_Attack		77920
+	280555713	NPC_Hare_Talk_1	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\NPC_Hare_Talk_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Hare\Talk\NPC_Hare_Talk_1		213544
+	289120274	Player_Grab	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Player_Grab		96016
+	315274204	UI_Click	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\UI_Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\UI_Click		100220
+	340546600	Amb_BoilingWater	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_BoilingWater_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D\Amb_BoilingWater		392396
+	373862461	Critter_Plant_Attack	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Plant_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant\Critter_Plant_Attack		114500
+	417620536	Amb_Ocean	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Ocean_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D\Amb_Ocean		7006456
+	429023903	Player_Footsteps_Water_3	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Water_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Water\Player_Footsteps_Water_3		66864
+	432838312	Player_Footsteps_Rock_1	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Rock_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Rock\Player_Footsteps_Rock_1		42064
+	443714980	Player_Jump_LiftOff_Hah	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Jump_LiftOff_Hah_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Jump LiftOff\Player_Jump_LiftOff_Hah		75320
+	454814604	Player_Jump_Landing	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Jump_Landing_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Player_Jump_Landing		64360
+	459883033	Player_Footsteps_Grass_1	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Grass_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Grass\Player_Footsteps_Grass_1		62780
+	467593094	Townsfolk_Female_Footsteps	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Townsfolk_Female_Footsteps_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Townsfolk_Female\Townsfolk_Female_Footsteps		62824
+	510582070	Field_Hill	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Field_Hill_3D1D1BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D\Field_Hill		582150
+	536154099	Critter_Rock_Attack	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Rock_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Rock\Critter_Rock_Attack		123204
+	550750375	Player_Footsteps_Grass_3	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Grass_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Grass\Player_Footsteps_Grass_3		83276
+	556365943	NPC_Phoenix_Nibble	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\NPC_Phoenix_Nibble_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Phoenix\NPC_Phoenix_Nibble		107336
+	561014783	NPC_Hare_Talk_3	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\NPC_Hare_Talk_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Hare\Talk\NPC_Hare_Talk_3		206452
+	582606944	Player_Footsteps_Sand_2	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Sand_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Sand\Player_Footsteps_Sand_2		61792
+	607794698	Player_Talk_2	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Talk_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Talk\Player_Talk_2		197208
+	632063227	Townsfolk_Female_Talk	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Townsfolk_Female_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Townsfolk_Female\Townsfolk_Female_Talk		176932
+	644177573	Singing	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\NPC_Hare_Song_Long_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Hare\Singing		9096812
+	673856129	NPC_Hare_Talk_2	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\NPC_Hare_Talk_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Hare\Talk\NPC_Hare_Talk_2		207464
+	699148935	Critter_Rock_Idle	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Rock_Idle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Rock\Critter_Rock_Idle		110368
+	715487936	Player_Footsteps_Water_2	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Water_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Water\Player_Footsteps_Water_2		49916
+	740391921	Player_Talk_1	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Talk_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Talk\Player_Talk_1		244660
+	741945217	Player_Attack_Hut	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Attack_Hut_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Attack\Player_Attack_Hut		61052
+	760712770	Player_Footsteps_Rock_2	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Rock_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Rock\Player_Footsteps_Rock_2		53280
+	778223924	Field_Farms	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Field_Farms_3D1D1BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D\Field_Farms		527196
+	784733732	Player_Footsteps_Sand_3	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Sand_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Sand\Player_Footsteps_Sand_3		65992
+	817635417	Critter_Plant_Idle	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Plant_Idle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant\Critter_Plant_Idle		202836
+	832804710	Critter_Rock_Death	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Rock_Death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Rock\Critter_Rock_Death		155536
+	870551788	Critter_Rock_Move	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Rock_Move_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Rock\Critter_Rock_Move		95152
+	871508058	Critter_Plant_Death	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Plant_Death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant\Critter_Plant_Death		101116
+	883727778	Critter_Plant_GetHit	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Plant_GetHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant\Critter_Plant_GetHit		114500
+	916153025	Player_Attack_Hyah	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Attack_Hyah_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Attack\Player_Attack_Hyah		61052
+	928754791	AddToInventory	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\AddToInventory_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\AddToInventory		138860
+	938959462	Amb_Cave	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Cave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D\Amb_Cave		3094764
+	974252978	Player_Talk_3	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Talk_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Talk\Player_Talk_3		205524
+	986405111	Townsfolk_Male_Footsteps	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Townsfolk_Male_Footsteps_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Townsfolk_Male\Townsfolk_Male_Footsteps		62824
+	999866674	Player_Footsteps_Rock_3	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Footsteps_Rock_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footsteps\Surface_Rock\Player_Footsteps_Rock_3		38076
+	1016000237	Player_Heartbeat	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player_Heartbeat_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Player_Heartbeat		123096
+	1047070068	NPC_Phoenix_Flap	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\NPC_Phoenix_Flap_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Phoenix\NPC_Phoenix_Flap		199728
+	1069584947	Amb_Trees	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Amb_Trees_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D\Amb_Trees		2356000
 

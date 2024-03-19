@@ -10,6 +10,7 @@
 						<State Name="Mus_MainMenu" ID="{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"/>
 						<State Name="Mus_Beach" ID="{8953B072-E2E1-4E95-9860-F0243B381C1D}"/>
 						<State Name="Mus_Field_Farms" ID="{75BD13A5-6921-48F5-8E93-26E02C10B70E}"/>
+						<State Name="Mus_Town" ID="{7227F7BE-DD37-42A4-BF6F-9DF6E731D17B}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Pause" ID="{5D3C779C-8130-47C3-BFED-1E0641098106}">

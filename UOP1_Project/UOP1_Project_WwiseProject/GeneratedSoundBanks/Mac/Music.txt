@@ -3,3 +3,34 @@ Event	ID	Name			Wwise Object Path	Notes
 	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
 	3991942870	Music			\Music\Music	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3092587493	Pause			\Music\Pause	
+	3991942870	Music			\Music\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Pause			
+	3537680115	Pause_On	Pause			
+	3967028551	Pause_Off	Pause			
+	430932854	Mus_Beach	Music			
+	748895195	None	Music			
+	1874745927	Mus_MainMenu	Music			
+	3954391251	Mus_Field_Hill	Music			
+	4139276889	Mus_Field_Farms	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	902105772	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2346531308	MusicVolume			\Default Work Unit\Mix\MusicVolume	
+	2918011349	MasterVolume			\Default Work Unit\Mix\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	72297061	Music_MainTheme	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Mus_MainMenu_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_MainTheme\Music_MainTheme\Music_MainTheme		944213
+	426055175	Music_Beach	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Mus_Beach_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Beach\Music_Beach\Music_Beach		766733
+	626947330	Music_Forest	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Mus_Field_Hill_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Forest\Music_Forest\Music_Forest		1007043
+	681599217	Music_Glade	C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Mus_Field_Farms_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Farm\Music_Glade		853236
+

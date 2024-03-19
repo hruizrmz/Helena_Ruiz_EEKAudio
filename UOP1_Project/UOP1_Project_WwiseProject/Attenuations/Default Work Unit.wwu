@@ -4,9 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="static_amb" ID="{D728035B-32D0-4BE3-BB6E-FDA3BD89CFC8}" ShortID="316020951">
-					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="70"/>
-					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -22,7 +19,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>70</XPos>
+											<XPos>100</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -50,7 +47,7 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>70</XPos>
+											<XPos>100</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -72,7 +69,7 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>70</XPos>
+											<XPos>100</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -90,7 +87,14 @@
 				</Attenuation>
 				<Attenuation Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" ShortID="1068088388">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="20"/>
+						<Property Name="ConeInnerAngle" Type="int32" Value="50"/>
+						<Property Name="ConeOuterAngle" Type="int32" Value="150"/>
+						<Property Name="ConeUse" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -102,13 +106,13 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>-1.54268</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>20</XPos>
-											<YPos>-200</YPos>
+											<XPos>40</XPos>
+											<YPos>-19.36283</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -135,7 +139,7 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>20</XPos>
+											<XPos>40</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -157,7 +161,7 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>20</XPos>
+											<XPos>40</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>

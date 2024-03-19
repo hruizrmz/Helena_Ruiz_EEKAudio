@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0870153-AC74-4F10-B2EB-1F264335DC38}" SchemaVersion="103" RootDocumentID="{DD3E0763-F331-4026-BD55-F0BB417CDA53}" ParentDocumentID="{DD3E0763-F331-4026-BD55-F0BB417CDA53}">
+	<AudioObjects>
+		<WorkUnit Name="Creatures" ID="{E0870153-AC74-4F10-B2EB-1F264335DC38}" OwnerID="{DD3E0763-F331-4026-BD55-F0BB417CDA53}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Plant" ID="{E029A0C5-0FB3-4290-A6DE-09E1F16BB9CA}" ShortID="984170816">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Creature" ID="{6C08B369-05AF-43D4-979D-AECD30254F2D}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Critter_Plant_Attack" ID="{30D8B228-91B6-4321-AB19-4BC6C85F07AE}" ShortID="743262160">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Attack" ID="{D66EA541-AB41-4464-9C54-040BD17D891C}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Plant_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="373862461"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Attack" ID="{D66EA541-AB41-4464-9C54-040BD17D891C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_Death" ID="{A760FEC3-520E-4A0A-B6E4-E2A3B9C976AA}" ShortID="810217956">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Death" ID="{14542B42-8E66-42B4-A841-E9C9F702804A}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Plant_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871508058"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Death" ID="{14542B42-8E66-42B4-A841-E9C9F702804A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_GetHit" ID="{3C1C21B6-2E3D-4296-9AAC-D904EEC8A8CD}" ShortID="807358673">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_GetHit" ID="{3782E9B0-A0EF-4195-AAC6-4D3C149FE157}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Plant_GetHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="883727778"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_GetHit" ID="{3782E9B0-A0EF-4195-AAC6-4D3C149FE157}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_Idle" ID="{C41FB4BA-8470-4C02-AEB5-1C0A87E8790E}" ShortID="806336003">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Idle" ID="{FEFC1E07-1976-44C8-A546-F485D3AA4493}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Plant_Idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="817635417"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Idle" ID="{FEFC1E07-1976-44C8-A546-F485D3AA4493}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="Rock" ID="{62B1818B-17B0-4F4F-874E-EDC24BF04FF7}" ShortID="281617408">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Creature" ID="{6C08B369-05AF-43D4-979D-AECD30254F2D}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Critter_Rock_Attack" ID="{477000CB-687D-434C-948D-DCB4A3B1DC83}" ShortID="452606410">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Rock_Attack" ID="{79B0FAE0-8E40-4E7D-B8F0-81DF80F68D49}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Rock_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="536154099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Rock_Attack" ID="{79B0FAE0-8E40-4E7D-B8F0-81DF80F68D49}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_Death" ID="{DBA9B253-CC45-44EF-9499-C2F42DF27D2D}" ShortID="865637532">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Rock_Death" ID="{3CDD8E72-7EEC-4436-B420-74DE7249B3E2}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Rock_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="832804710"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Rock_Death" ID="{3CDD8E72-7EEC-4436-B420-74DE7249B3E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_GettingHit" ID="{AEDEB07B-3729-4578-B080-D881D1515797}" ShortID="803337581">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Rock_GettingHit" ID="{48BA2F33-43F2-4C1A-95CF-AE8EF2BAE5CE}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Rock_GettingHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="142934379"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Rock_GettingHit" ID="{48BA2F33-43F2-4C1A-95CF-AE8EF2BAE5CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_Idle" ID="{4ECBE06A-F06B-4AE5-9E20-10777D5BAC8D}" ShortID="180558171">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Rock_Idle" ID="{D4BA71CE-E03E-434F-BFC0-B085871CCA05}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Rock_Idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="699148935"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Rock_Idle" ID="{D4BA71CE-E03E-434F-BFC0-B085871CCA05}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_Move" ID="{BF3A8488-DE04-44DD-9D24-E5D032E44C0D}" ShortID="904129026">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Rock_Move" ID="{5FDD25B9-7C3B-47D3-B719-7E7AD63F421B}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Rock_Move.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="870551788"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Rock_Move" ID="{5FDD25B9-7C3B-47D3-B719-7E7AD63F421B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

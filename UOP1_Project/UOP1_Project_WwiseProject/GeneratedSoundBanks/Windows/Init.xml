@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Helena\Documents\Unity\Helena_Ruiz_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1019858265">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="366547254">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
 				<AuxBus Id="1697398818" Name="CaveReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb" GUID="{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}"/>
 			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\Mix\SFXVolume" GUID="{FE79C3AE-3098-4A2A-A981-AB553DE50DF1}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\Mix\MusicVolume" GUID="{29E64A76-7D6C-48D3-AE2B-2731FD2C3E94}"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\Mix\MasterVolume" GUID="{7A83E21B-6ED5-46DF-A316-4324E9E1B9BD}"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1697398818" Name="CaveReverb" ObjectPath="\States\Default Work Unit\CaveReverb" GUID="{62F7C846-EA92-462C-9F4E-7B3474524FDE}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CaveReverb\None" GUID="{9BE472C1-7012-44DA-9381-6EF282B2097B}"/>
 						<State Id="717767040" Name="CaveReverb_Enabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
 						<State Id="2218728873" Name="CaveReverb_Disabled" ObjectPath="\States\Default Work Unit\CaveReverb\CaveReverb_Disabled" GUID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2213237662" Name="Underwater" ObjectPath="\States\Default Work Unit\Underwater" GUID="{090A1B75-4E8F-4347-AF99-71262755EFAF}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Underwater\None" GUID="{35889EAA-A199-4BE8-81E7-B5147F0A7952}"/>
+						<State Id="2294733406" Name="Underwater_On" ObjectPath="\States\Default Work Unit\Underwater\Underwater_On" GUID="{08A9A702-61A2-4EB5-9B9A-C37DFF01B50A}"/>
+						<State Id="2802431236" Name="Underwater_Off" ObjectPath="\States\Default Work Unit\Underwater\Underwater_Off" GUID="{291A2A18-4C0E-4C08-A484-C8D8FAC17711}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Music\Pause" GUID="{5D3C779C-8130-47C3-BFED-1E0641098106}">

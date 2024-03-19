@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0BCB501D-87DA-4F91-8A3A-A7FEFA9D0A8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{81A556FD-3706-45FC-B81F-7EE171EEFA29}" PersistMode="Reference"/>
+				<WorkUnit Name="Player" ID="{CF6547F9-AC49-40A4-B715-F23EFB1E559C}" PersistMode="Reference"/>
+				<WorkUnit Name="NPC" ID="{06E86ECA-934C-4763-8D5A-0F970D64E573}" PersistMode="Reference"/>
+				<WorkUnit Name="Creature" ID="{A9A8D40F-F984-4655-BC94-798A4042F850}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
